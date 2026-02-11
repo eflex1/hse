@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExcelSafe Solutions | HSE Consulting</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img
+          src="excelsafelogo.png"
+          alt="ExcelSafe Solutions"
+          class="nav-logo"
+        />
+      </div>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta-button">Contact</a>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">JUDE IKENNA AGBO</h1>
+        <p class="hero-subtitle">HSE Consultant</p>
+
+        <p class="hero-description">
+          Professional Health, Safety & Environment consultant dedicated to
+          building safer workplaces through comprehensive HSE solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary" onclick="scrollToSection('services')">
+            Explore Services
+          </button>
+          <button class="btn-secondary" onclick="sendEmail()">
+            Get Consultation
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES  -->
+    <section class="services" id="services">
+      <h2>Our HSE Services</h2>
+      <p class="section-subtitle">
+        Comprehensive safety solutions for your workplace
+      </p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3>HSE Policy Development & Implementation</h3>
+          <p>
+            Custom safety policies tailored to your organization's needs,
+            ensuring compliance with local and international standards.
+          </p>
+          <div class="service-check">
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3>Safety Audits & Risk Assessments</h3>
+          <p>
+            Thorough workplace inspections and risk analysis to identify hazards
+            and implement effective control measures.
+          </p>
+          <div class="service-check">
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Emergency Response Planning</h3>
+          <p>
+            Developing comprehensive emergency procedures and evacuation plans
+            for all types of workplace incidents.
+          </p>
+          <div class="service-check">
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3>Safety Training & Induction Programs</h3>
+          <p>
+            Engaging, practical training sessions for employees at all levels,
+            from basic induction to specialized safety courses.
+          </p>
+          <div class="service-check">
+            <i class="fas fa-check-circle"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h2>About Jude Ikenna Agbo</h2>
+      <div class="about-content">
+        <div class="about-grid">
+          <div class="about-image-container">
+            <img
+              src="hse man.jpg"
+              alt="Jude Ikenna Agbo - HSE Consultant"
+              class="about-image"
+            />
+            <div class="about-image-frame"></div>
+            <div class="about-image-caption">
+              <span>Jude Ikenna Agbo</span>
+              <small>HSE Consultant</small>
+            </div>
+          </div>
+          <div class="about-text">
+            <p class="about-intro">
+              With extensive experience in Health, Safety, and Environment
+              consulting, I bring practical, results-driven solutions to
+              organizations across Nigeria and beyond.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <i class="fas fa-briefcase"></i>
+                <span>10+ Years HSE Experience</span>
+              </div>
+              <div class="highlight">
+                <i class="fas fa-building"></i>
+                <span>20+ Organizations Served</span>
+              </div>
+              <div class="highlight">
+                <i class="fas fa-certificate"></i>
+                <span>0 Preventable Incidents</span>
+              </div>
+              <div class="highlight">
+                <i class="fas fa-globe-africa"></i>
+                <span>150+ Workers Trained</span>
+              </div>
+            </div>
+            <p class="about-mission">
+              My mission is simple:
+              <strong>"Let's Build a Safer Tomorrow – Today!"</strong> Every
+              workplace deserves world-class safety standards, and I'm committed
+              to making that accessible.
+            </p>
+            <!-- <div class="about-credentials">
+              <h4>Professional Certifications</h4>
+              <div class="credentials-list">
+                <span>NEBOSH International General Certificate</span>
+                <span>IOSH Managing Safely</span>
+                <span>ISO 45001 Lead Auditor</span>
+                <span>OSHA 30-Hour</span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why choose us -->
+    <section class="why-us">
+      <h2>Why Choose ExcelSafe?</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <i class="fas fa-user-tie"></i>
+          <h3>Industry Expertise</h3>
+          <p>
+            Specialized knowledge in oil & gas, construction, manufacturing, and
+            corporate environments
+          </p>
+        </div>
+        <!-- <div class="feature">
+          <i class="fas fa-file-signature"></i>
+          <h3>Regulatory Compliance</h3>
+          <p>Full alignment with NOSDRA, DPR, OSHA, and ISO 45001 standards</p>
+        </div> -->
+        <div class="feature">
+          <i class="fas fa-chart-line"></i>
+          <h3>Measurable Results</h3>
+          <p>Proven track record of reducing workplace incidents by 40%+</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-hand-holding-heart"></i>
+          <h3>Client-Focused</h3>
+          <p>Tailored solutions that fit your budget and operational needs</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2>Ready to elevate your workplace safety standards?</h2>
+      <p class="contact-tagline">Reach out to Us</p>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3>Contact Information</h3>
+
+          <div class="contact-detail-item">
+            <i class="fas fa-user"></i>
+            <div>
+              <span>HSE Consultant</span>
+              <strong>Jude Ikenna Agbo</strong>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <strong>judeagbo.hse@aol.com</strong>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <span>Primary</span>
+              <strong>+234 913 679 8928</strong>
+            </div>
+          </div>
+
+          <div class="contact-detail-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <span>Secondary</span>
+              <strong>+234 901 346 5501</strong>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h3>Request a Consultation</h3>
+          <p>Free initial safety assessment for new clients</p>
+
+          <form class="contact-form" id="consultationForm" netlify>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="tel" placeholder="Phone Number" required />
+            <select required>
+              <option value="" disabled selected>Select Service</option>
+              <option>HSE Policy Development</option>
+              <option>Safety Audit & Risk Assessment</option>
+              <option>Emergency Response Planning</option>
+              <option>Safety Training</option>
+            </select>
+            <textarea
+              rows="4"
+              placeholder="Tell us about your safety needs..."
+            ></textarea>
+            <button type="submit" class="btn-primary btn-full">
+              Send Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img
+            src="excelsafewhite.png"
+            alt="ExcelSafe Solutions"
+            class="footer-logo"
+          />
+          <p>Professional HSE Consulting Services</p>
+        </div>
+        <div class="footer-tagline">
+          <p>Let's Build a Safer Tomorrow – Today!</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2026 ExcelSafe Solutions. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scroll function
+      function scrollToSection(sectionId) {
+        document
+          .getElementById(sectionId)
+          .scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Email
+      function sendEmail() {
+        window.location.href =
+          "mailto:judeagbo.hse@aol.com?subject=Consultation%20Request%20-%20ExcelSafe%20Solutions";
+      }
+
+      // Call
+      function callPhone() {
+        window.location.href = "tel:+2349136798928";
+      }
+    </script>
+  </body>
+</html>
