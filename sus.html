@@ -20,8 +20,8 @@
           Roboto,
           Arial,
           sans-serif;
-        background: linear-gradient(135deg, #0f172a, #1e293b);
-        color: #ffffff;
+        background: linear-gradient(180deg, #ff0000, #ffffff);
+        color: #000000;
         min-height: 100vh;
         display: flex;
         align-items: center;
@@ -30,7 +30,7 @@
       }
 
       .card {
-        background: rgba(255, 255, 255, 0.08);
+        background: rgba(255, 255, 255, 0.628);
         backdrop-filter: blur(10px);
         border-radius: 16px;
         padding: clamp(24px, 5vw, 48px);
@@ -60,18 +60,17 @@
       .badge {
         display: inline-block;
         margin-bottom: 18px;
-        padding: 6px 12px;
         border-radius: 999px;
         background: rgba(255, 255, 255, 0.15);
-        font-size: 13px;
-        letter-spacing: 0.5px;
+        overflow: hidden;
+        object-fit: cover;
       }
     </style>
   </head>
 
   <body>
     <div class="card">
-      <div class="badge">Service Notice</div>
+      <div class="badge"><img src="arsenal.jpg" /></div>
 
       <h1>Website Temporarily Unavailable</h1>
       <p>This site will be back online when Arsenal win the league.</p>
