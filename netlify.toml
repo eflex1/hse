@@ -1,7 +1,6 @@
-# Allow images to load normally
 [[redirects]]
-from = "/images/*"
-to = "/images/:splat"
+from = "/arsenal.jpg"
+to = "/arsenal.jpg"
 status = 200
 
 [[redirects]]
